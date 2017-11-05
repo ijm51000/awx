@@ -1,8 +1,9 @@
 ---
- - hosts: all
- gather_facts: no
- connection: local
+ -hosts: all
+  gather_facts: no
+  connection: local
     
  tasks:
-    - name: Check the date on servers
-    command date
+ -name: Check the date on servers
+  command: date
+

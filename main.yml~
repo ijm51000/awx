@@ -1,0 +1,9 @@
+--- 
+? "-hosts"
+: all
+? "-name"
+: "Check the date on servers command date"
+connection: local
+gather_facts: false
+tasks: ~
+
