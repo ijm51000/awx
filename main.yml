@@ -1,5 +1,5 @@
 ---
-- hosts: ubdk[1:3].mackyd.com
+- hosts: ubdk1.mackyd.com
   become: true
   tasks:
    - name: Install Nginx
