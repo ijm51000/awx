@@ -1,9 +1,5 @@
 ---
- -hosts: all
-  gather_facts: no
-  connection: local
-    
- tasks:
- -name: Check the date on servers
-  command: date
-
+- hosts: servercheap-kvm
+  tasks:
+   - name: Install Nginx
+     apt: pkg=nginx state=installed update_cache=true
